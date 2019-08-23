@@ -1,15 +1,11 @@
-MaMe82's Python port of infamous hak5 DuckEncoder
-
-Added in additional commandline parameters to pipe in STDIN.
-
--p (--passthru) could be used to pipe in DuckyScript from STDIN. Example
-
-    cat duckyscript.txt | python duckencoder.py -p -l de > inject.bin
-
--r (--rawpassthru) could be used to pipe thru raw ASCII to a keyboard device. Example
+This is a clone of MaMe82's Python port of infamous hak5 DuckEncoder
 
 
-    cat text.txt | python duckencoder.py -r -l de > /dev/hidg0
+      _      _      _      USB       _      _      _
+   __(.)< __(.)> __(.)=   Rubber   >(.)__ <(.)__ =(.)__
+   \___)  \___)  \___)    Ducky!    (___/  (___/  (___/ 
+
+The USB Rubber Ducky is a Human Interface Device programmable with a simple scripting language allowing penetration testers to quickly and easily craft and deploy security auditing payloads that mimic human keyboard input. The source is written in C and requires the AVR Studio 5 IDE from atmel.com/avrstudio. Hardware is commercially available at hakshop.com. Tools and payloads can be found at usbrubberducky.com. Quack!
 
 Usage
 
